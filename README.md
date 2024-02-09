@@ -4,7 +4,7 @@ Naive Bayes Email Spam Classification
 
 Overview
 
-This repository contains Python code for a Naive Bayes classifier designed to predict whether an email is spam or not spam. The classifier is trained on a dataset of emails, which can be downloaded using the provided download_corpus function. The dataset includes both ham (non-spam) and spam emails.
+This repository contains Python code for a Naive Bayes classifier designed to predict whether an email is spam or not spam. The classifier is trained on a dataset of emails. The dataset includes both ham (non-spam) and spam emails.
 
 The code uses the CountVectorizer from scikit-learn for feature extraction and the MultinomialNB (Multinomial Naive Bayes) classifier for training. The performance of the classifier is evaluated using metrics such as accuracy, precision, recall, and F1 score.
 
